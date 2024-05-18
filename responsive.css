@@ -1,0 +1,80 @@
+@media screen and (max-width:1067px){
+    .nav a{
+        display: flex;
+        margin-right: 16px;
+    }
+    nav .btns button{
+        padding: 6px 14px;
+    }
+    .header-right img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:890px){
+    .nav .btns{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:830px){
+    .header-left{
+        padding: 100px 50px 50px 50px;
+
+    }
+    .header-left h1{
+        font-size: 36px;
+        line-height: 36px;
+
+    }
+    .header-left p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:740px){
+    .nav .last-3{
+        display: none;
+    }
+    header{
+        display: grid;
+        text-align: center;
+    }
+    header img{
+        display: none;
+    }
+}
+@media screen and (max-width:618px){
+    .action{
+        display: grid;
+        text-align: center;
+        padding: 18px 200px;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .action{
+        display: none;
+    }
+}
+@media screen and (max-width:470px){
+    .nav ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width:350px){
+    .nav{
+        padding: 12px 24px;
+    }
+
+    .header-right img{
+        width: 100%;
+        display: block;
+    }
+}
